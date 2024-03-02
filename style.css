@@ -5,28 +5,27 @@
     --cor4: #FFE6C7;
 }
 
-body{
-    background-color: var(--cor1);
+body {
+    background-image: url(Assets/BG_FUNDO.jpg);
+    background-size: contain;
 }
 
 header {
-    background-image: url(Assets/one\ piece.jpg);
+
     height: 20vh;
-    min-height: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
+    min-height: 100px;
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: var(--cor2);
-    text-shadow:-1px 0 var(--cor1), 0 1px var(--cor1);
+    text-shadow: -1px 0 var(--cor1), 0 1px var(--cor1);
     font-size: 20px;
 }
 
 .navbar-light .navbar-brand {
     color: var(--cor2);
     font-size: 30px;
-    text-shadow:-2px 0 var(--cor1), 0 2px var(--cor1);
+    text-shadow: -2px 0 var(--cor1), 0 2px var(--cor1);
 }
 
 .bg-dark {
@@ -69,7 +68,8 @@ main {
     padding: 5px;
 }
 
-.mostrar_item_texto h6, p {
+.mostrar_item_texto h6,
+p {
     margin: 0;
 }
 
@@ -85,3 +85,13 @@ main {
 
 }
 
+.footer {
+    background-color: var(--cor1);
+    margin-top: 10px;
+    padding: 20px 0;
+    color:var(--cor2);
+}
+
+footer i {
+    color: var(--cor2);
+}
