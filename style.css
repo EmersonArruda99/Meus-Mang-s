@@ -115,3 +115,16 @@ p {
 footer i {
     color: var(--cor2);
 }
+
+.card {
+    background-color: var(--cor1);
+    box-shadow: 0 8px 20px 0 var(--cor1);
+}
+
+.card h6 {
+    color: var(--cor2);
+}
+
+.carousel-item {
+    box-shadow: 0 8px 20px 0 var(--cor1);
+}
